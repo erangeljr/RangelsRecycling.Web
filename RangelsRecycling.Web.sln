@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangelsRecycling.Web", "RangelsRecycling.Web\RangelsRecycling.Web.csproj", "{8404ACE8-F9D3-4382-94EF-F282E133C2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangelsRecycling.Web.Tests", "RangelsRecycling.Web.Tests\RangelsRecycling.Web.Tests.csproj", "{734EF8BB-D130-446A-B6AE-485C6F255B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7D6BA8D2-814D-414C-B4B1-F58CAE7D1DA6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{A26CBC2D-F4EB-4399-9F98-DBC4B53A72F3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\RangelsRecyclingWeb-WAWS-dev.json = PublishScripts\Configurations\RangelsRecyclingWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8404ACE8-F9D3-4382-94EF-F282E133C2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8404ACE8-F9D3-4382-94EF-F282E133C2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8404ACE8-F9D3-4382-94EF-F282E133C2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8404ACE8-F9D3-4382-94EF-F282E133C2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734EF8BB-D130-446A-B6AE-485C6F255B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734EF8BB-D130-446A-B6AE-485C6F255B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734EF8BB-D130-446A-B6AE-485C6F255B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734EF8BB-D130-446A-B6AE-485C6F255B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A26CBC2D-F4EB-4399-9F98-DBC4B53A72F3} = {7D6BA8D2-814D-414C-B4B1-F58CAE7D1DA6}
+	EndGlobalSection
+EndGlobal
